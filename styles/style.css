@@ -369,9 +369,13 @@ z-index: 3;
     background-image: url('../images/facebook_color_white.svg'), url('../images/vk_color_white.svg'), url('../images/instagram_color_white.svg');
     height: 16px;
     width: 16px;
+    margin: 0;
     margin-right: 10px;
-    background-position: contain;
+    background-position: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
   }
 
   

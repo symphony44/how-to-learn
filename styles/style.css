@@ -349,6 +349,8 @@ z-index: 3;
 
   
   .footer__column-links {
+    display: flex;
+    flex-direction: column;
     color: white;
     line-height: 30px;
     font-size: 18px;
@@ -360,20 +362,25 @@ z-index: 3;
   
   .footer__column-link {
     display: flex;
-    
     color: white;
     text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    align-items: center;
+   
   }
 
   .footer__social-icon {
     background-image: url('../images/facebook_color_white.svg');
     height: 16px;
     width: 16px;
-    margin: 0;
+    margin: 0 10px 0 0;
     background-position: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
+    
 
   }
 

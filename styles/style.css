@@ -150,6 +150,7 @@
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .cards__item {
